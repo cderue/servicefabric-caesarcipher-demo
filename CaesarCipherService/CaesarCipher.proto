@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+package CaesarCipherService;
+
+service CaesarCipher {
+    rpc Encrypt(EncryptRequest) returns (EncryptResponse) {}
+    rpc Decrypt(DecryptRequest) returns (DecryptResponse) {}
+}
+
+message EncryptRequest {
+    string str = 1;
+    int32 shift = 2;
+}
+message DecryptRequest {
+    string str = 1;
+    int32 shift = 2;
+}
+
+message EncryptResponse {
+    string replicaId = 1;
+	string result = 2;
+}
+
+message DecryptResponse {
+    string replicaId = 1;
+	string result = 2;
+}

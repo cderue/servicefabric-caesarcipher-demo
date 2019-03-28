@@ -4,7 +4,7 @@
     "windowsAuthentication": false, 
     "anonymousAuthentication": true, 
     "iisExpress": {
-      "applicationUrl": "http://localhost:52602",
+      "applicationUrl": "http://localhost:54649",
       "sslPort": 0
     }
   },
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "CaesarCipherWebApi": {
+    "Web1": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",
